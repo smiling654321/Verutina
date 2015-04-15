@@ -1,0 +1,91 @@
+body{
+margin:0;
+padding:0;
+background:#FF2646;
+}
+
+#header{
+height:200px;
+}
+#contain {
+    width: 1000px; /* Ширина макета */
+    margin: 0 auto; /* Выравниваем по центру */
+    background: #FFEFEF; /* Цвет колонок */
+	margin-top: 5%; /* Отступ сверху */
+   }
+.logo{
+float:left;
+margin-left:20px;
+
+}
+.logotext{
+float:right;
+margin-right: 20px;
+margin-top: 20px;
+}
+div.logotext a{
+text-decoration: none;
+color: #fff;
+font-size: 20px;
+padding:5px;
+}
+.topmenu{
+display:-moz-box;
+display:-webkit-flex;
+display:flex;
+width:100%;
+margin: 0 auto;
+flex-direction:row;
+}
+.topmenu a{
+display: block;
+-moz-box-flex:1;
+-webkit-flex:1;
+flex:1;
+font:14px;
+padding:10px;
+color:black;
+background:#E78383;
+border-right:1px solid black;
+text-align:center;
+text-decoration: none;
+}
+.topmenu a:hover{
+background:#5c3434;
+color:#cc1e38;
+font:16px bold;
+}
+
+.menu a{
+width:100%;
+display:block;
+margin-bottom: 1px;
+}
+.maintext {
+font: 14px bold;
+color: gray;
+}
+.footer  {
+width:900px;
+padding-top:20px;
+padding-bottom:20px;
+text-align:center;
+}
+
+@media screen and (max-width: 768px){
+.topmenu{
+flex-direction:column;
+}
+.logo{
+display:none;
+}
+#header{
+height:100px;
+}
+
+
+
+
+
+
+

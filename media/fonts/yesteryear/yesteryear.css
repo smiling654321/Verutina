@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Yesteryear';
+    src: url('yesteryear-regular.eot');
+    src: url('yesteryear-regular.eot?#iefix') format('embedded-opentype'),
+         url('yesteryear-regular.woff') format('woff'),
+         url('yesteryear-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

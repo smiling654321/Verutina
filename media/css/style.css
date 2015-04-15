@@ -1,0 +1,106 @@
+body{
+margin:0;
+padding:0;
+background:#000;
+font-family: Arial,Helvetica,sans-serif;
+}
+/* img{
+max-width: 100%;
+max-height: 100%;
+padding-bottom: 2%;
+padding-top:2%;
+} */
+.container {
+    width: 60%; /* Ширина макета */
+    margin: 0 auto; /* Выравниваем по центру */
+    background:#fff; /* Цвет колонок */
+	margin-top: 12%; /* Отступ сверху */
+	/* border-radius: 20px; 
+	border-color: #74475C;
+	border-style: ridge;*/
+	padding: 0;
+   }
+#header{
+height:90px;
+/*background:url(../img/fon.jpg);*/
+}
+.logo{
+float:left;
+margin-left:40%;
+
+
+}
+.logotext{
+float:right;
+}
+div.logotext a{
+text-decoration: none;
+color: #fff;
+font-size: 20px;
+padding:5px;
+}
+#top {
+width:100%;
+margin: 0;
+}
+.topmenu{
+display:-moz-box;
+display:-webkit-flex;
+display: flex;
+width:100%;
+margin: 0 auto;
+flex-direction: row;
+margin: 0 auto;
+}
+.topmenu a{
+display: block;
+-moz-box-flex:1;
+-webkit-flex:1;
+flex:1;
+padding:10px;
+color:#000000;
+/* border-right:1px solid black; */
+text-align:center;
+text-decoration: none;
+}
+.topmenu a:hover{
+color:#fff;
+background: #000;
+}
+.menu a{
+width:100%;
+display:block;
+margin-bottom: 1px;
+}
+.maintext {
+text-align: left;
+font: 14px bold;
+}
+.footer  {
+padding-top:5px;
+padding-bottom:5px;
+text-align:center;
+font-family: 'Kaushan Script', cursive;
+}
+.footer p{
+font: 20px;
+color:#fff;
+}
+
+@media screen and (max-width: 768px){
+.topmenu{
+flex-direction:column;
+}
+.logo{
+display:none;
+}
+#header{
+height:100px;
+}
+}
+
+
+
+
+
+

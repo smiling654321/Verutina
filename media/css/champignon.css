@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Champignon';
+    src: url('champignon.eot');
+    src: url('champignon.eot?#iefix') format('embedded-opentype'),
+         url('champignon.woff') format('woff'),
+         url('champignon.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

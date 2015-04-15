@@ -1,0 +1,157 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+}
+.header-top{
+background: #FFC5FF;
+}
+.header-line{
+background: #983087;
+padding: 15px 0;
+}
+.header-line a {
+color: #fff; 
+}
+.container{
+}
+.toplinks{
+display: inline-block;
+vertical-align: middle;
+}
+.toplinks a{
+text-decoration: underline;
+}
+.toplinks a:hover{
+text-decoration: none;
+}
+.soc_buttons{
+float: right;
+}
+.soc_buttons a{
+font-size: 26px;
+margin-left: 8px;
+}
+.logo{
+display: block;
+padding: 15px 0;
+color: #983087;
+font-family: 'Yesteryear';
+font-size: 42px;
+text-align: center;
+}
+.main_menu{
+background:#983087;
+font-family: "RobotoBold", sans-serif;
+color:#fff;
+margin-bottom: 20px;
+}
+.main_menu a{
+padding: 15px 15px;
+display: block;
+color:#fff;
+}
+.main_menu a:hover{
+background:#BF57AE;
+color:#fff;
+}
+.main_menu ul{
+margin:0;
+padding:0;
+list-style-type: none;
+float: left;
+}
+
+.topcontacts{
+float:right;
+font-size: 32px;
+padding: 0 15px;
+}
+.main_menu ul li{
+display: inline-block;
+}
+h1{
+color:#fff;
+text-align: center;
+text-decoration: uppercase;
+}
+.container-1 p{
+font-size:14px;}
+.footer  {
+background:#983087;
+color:#fff;
+font-family: 'Yesteryear';
+padding-top:3px;
+padding-bottom:3px;
+text-align:center;
+}
+.fon{
+margin: 10px;
+padding: 10px;
+border: solid 1px black;
+float:left;}
+.name{
+color: black;
+text-align:center;
+}
+.modal-window{
+position:absolute;
+top:150px;
+width:500px;
+margin-left:-250px;
+border: solid 1px black;
+background: white;
+box-shadow: 1px 1px 1px block;
+padding:10px;
+z-index:99;
+left:50%;
+}
+.modal-close-btn{
+position:absolute;
+top:1px;
+right:1px;
+margin:0;
+padding:0;
+text-decoration:none;
+color:red;
+font-size:12px;
+}
+.modal-close-btn:before{
+position:relative;
+top:-1px;
+content:'Закрыть';
+font-size:12px;
+}
+#jquery-overlay{
+background:black;
+top:1px;
+left:0;
+opacity:0.7;
+position:fixed;
+height:100%;
+width:100%;
+}
