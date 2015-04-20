@@ -4,6 +4,7 @@
 	$dbuser='root';
 	$dbpass='';
 	//таблицы
+	$tbl_zakaz='zakazs';
 	$tbl_news='news';
 	$tbl_issue='issues';
 	$tbl_tovar='tovars';

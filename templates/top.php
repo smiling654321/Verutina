@@ -51,18 +51,20 @@ require_once('config/config.php');
 ?>
 					<a href='kabinet.php'>Кабинет пользователя</a> 
 					<a href='log_out.php'>Выход</a>
+					<a href='buschet.php'>Корзина</a>
 <?PHP
 				}
 				else{
 ?>
 					<a href='auth.php'>Вход</a> 
 					<a href='reg.php'>Регистрация</a>
+					<a href='buschet.php'>Корзина</a>
 <?PHP
 				}
 				?>
 				</div>
 				<div class='soc_buttons'>
-			
+			<a href='poisk.php'>Поиск</a>
 					<a href='#'><i class="fa fa-vk"></i></a>
 					<a href='#'><i class="fa fa-facebook-square"></i></a>
 				</div>

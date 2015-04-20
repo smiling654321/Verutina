@@ -6,10 +6,14 @@ $adr=mysql_query($query);
 	if(!$adr){
 	exit($query);
 	}
-$text=mysql_fetch_array($adr);
+$tov=mysql_fetch_array($adr);
  echo "<div class='fon'>
-	<img src='media/uploads/".$text['pictsmall']."'/>
+	<img src='media/uploads/".$tov['pictsmall']."'/>
 	</div>"
 	?>
-<h3><?php echo $text['name'];?></h3>
-<p><?php echo $text['body'];?></p>
+	<form method='post' action='cart.php?id=<?=$tov['id']?>'>
+	<input type='number' name='colvo'>
+	<input type='submit' value='Добавить'>
+	</form>
+<h3><?php echo $tov['name'];?></h3>
+<p><?php echo $tov['body'];?></p>
